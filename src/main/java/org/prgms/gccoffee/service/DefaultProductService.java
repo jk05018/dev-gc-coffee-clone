@@ -11,11 +11,11 @@ import org.prgms.gccoffee.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProductServiceImpl implements ProductService {
+public class DefaultProductService implements ProductService {
 
 	private final ProductRepository productRepository;
 
-	public ProductServiceImpl(ProductRepository productRepository) {
+	public DefaultProductService(ProductRepository productRepository) {
 		this.productRepository = productRepository;
 	}
 
