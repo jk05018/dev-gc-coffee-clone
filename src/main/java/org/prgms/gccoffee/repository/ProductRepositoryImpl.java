@@ -1,15 +1,12 @@
 package org.prgms.gccoffee.repository;
 
 import java.time.LocalDateTime;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
-
-import javax.swing.text.html.Option;
 
 import org.prgms.gccoffee.Utils;
 import org.prgms.gccoffee.model.Category;

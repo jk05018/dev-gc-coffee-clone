@@ -20,6 +20,7 @@ public class OrderRestController {
 
 	@PostMapping("/api/v1/orders")
 	public Order createOrder(@RequestBody CreateOrderRequest orderRequest){
+		System.out.println("orderItems : " + orderRequest.getOrderItems());
 		return orderService.createOrder(new Email(orderRequest.getEmail()), orderRequest.getAddress()
 			, orderRequest.getPostcode(), orderRequest.getOrderItems());
 
